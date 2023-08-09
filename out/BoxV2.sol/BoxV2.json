@@ -1,0 +1,266 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "inc",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "val",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060cc8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063371303c01460375780633c6bb43614603f575b600080fd5b603d6059565b005b604760005481565b60405190815260200160405180910390f35b6001600080828254606991906070565b9091555050565b80820180821115609057634e487b7160e01b600052601160045260246000fd5b9291505056fea26469706673582212208d546b4408a6e883dfe641a38b1f937896f0cd3537a31a3877690c8d333be90764736f6c63430008110033",
+    "sourceMap": "61:101:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c8063371303c01460375780633c6bb43614603f575b600080fd5b603d6059565b005b604760005481565b60405190815260200160405180910390f35b6001600080828254606991906070565b9091555050565b80820180821115609057634e487b7160e01b600052601160045260246000fd5b9291505056fea26469706673582212208d546b4408a6e883dfe641a38b1f937896f0cd3537a31a3877690c8d333be90764736f6c63430008110033",
+    "sourceMap": "61:101:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;107:52;;;:::i;:::-;;83:15;;;;;;;;;160:25:1;;;148:2;133:18;83:15:0;;;;;;;107:52;149:1;142:3;;:8;;;;;;;:::i;:::-;;;;-1:-1:-1;;107:52:0:o;196:222:1:-;261:9;;;282:10;;;279:133;;;334:10;329:3;325:20;322:1;315:31;369:4;366:1;359:15;397:4;394:1;387:15;279:133;196:222;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "inc()": "371303c0",
+    "val()": "3c6bb436"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"inc\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"val\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/BoxV2.sol\":\"BoxV2\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=node_modules/@openzeppelin/\",\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":hardhat/=node_modules/hardhat/\"]},\"sources\":{\"contracts/BoxV2.sol\":{\"keccak256\":\"0x4175c289868eff988ebc7ad76fbe51715b66b6c60cab4604c13d5217b7fc0f1f\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://dcd271ee2c141ee9faa938f4533029896c825b99201c8a1023e67d356b7d3b90\",\"dweb:/ipfs/QmXadKrzkKQ38KHzujm1dbNNoEyxMGnNkdKG5xyVVZ4Vj8\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "inc"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "val",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        "@openzeppelin/=node_modules/@openzeppelin/",
+        "eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        "hardhat/=node_modules/hardhat/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/BoxV2.sol": "BoxV2"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/BoxV2.sol": {
+        "keccak256": "0x4175c289868eff988ebc7ad76fbe51715b66b6c60cab4604c13d5217b7fc0f1f",
+        "urls": [
+          "bzz-raw://dcd271ee2c141ee9faa938f4533029896c825b99201c8a1023e67d356b7d3b90",
+          "dweb:/ipfs/QmXadKrzkKQ38KHzujm1dbNNoEyxMGnNkdKG5xyVVZ4Vj8"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/BoxV2.sol",
+    "id": 13,
+    "exportedSymbols": {
+      "BoxV2": [
+        12
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:129:0",
+    "nodes": [
+      {
+        "id": 1,
+        "nodeType": "PragmaDirective",
+        "src": "33:24:0",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 12,
+        "nodeType": "ContractDefinition",
+        "src": "61:101:0",
+        "nodes": [
+          {
+            "id": 3,
+            "nodeType": "VariableDeclaration",
+            "src": "83:15:0",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "3c6bb436",
+            "mutability": "mutable",
+            "name": "val",
+            "nameLocation": "95:3:0",
+            "scope": 12,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "83:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 11,
+            "nodeType": "FunctionDefinition",
+            "src": "107:52:0",
+            "nodes": [],
+            "body": {
+              "id": 10,
+              "nodeType": "Block",
+              "src": "131:28:0",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 8,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 6,
+                      "name": "val",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 3,
+                      "src": "142:3:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "hexValue": "31",
+                      "id": 7,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "149:1:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1_by_1",
+                        "typeString": "int_const 1"
+                      },
+                      "value": "1"
+                    },
+                    "src": "142:8:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 9,
+                  "nodeType": "ExpressionStatement",
+                  "src": "142:8:0"
+                }
+              ]
+            },
+            "functionSelector": "371303c0",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "inc",
+            "nameLocation": "116:3:0",
+            "parameters": {
+              "id": 4,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "119:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "131:0:0"
+            },
+            "scope": 12,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "BoxV2",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          12
+        ],
+        "name": "BoxV2",
+        "nameLocation": "70:5:0",
+        "scope": 13,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 0
+}
